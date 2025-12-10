@@ -122,7 +122,7 @@ function raptor_disks_prev() {
     echo "swap path : $swappath"
     echo "home path : $homepath"
     echo "--------------------------------"
-    read -p "Do you want continue this installation : [Y/n] " confirmdiskpartition
+    read -p "Do you want continue installation : [Y/n] " confirmdiskpartition
 
     if [[ $confirmdiskpartition != "Y" ]];then
         echo "Proccess cancelation by user"
