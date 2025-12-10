@@ -13,14 +13,8 @@ pipewire-pulse
 pipewire-jack
 pipewire-alsa
 sddm
-budgie-desktop
-materia-gtk-theme
-budgie-backgrounds
-papirus-icon-theme
-budgie-screensaver
-budgie-desktop-view
-budgie-control-center
-guake
+pantheon
+pantheon-polkit-agent 
 firefox
 nautilus
 gnome-keyring
