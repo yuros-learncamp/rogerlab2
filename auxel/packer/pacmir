@@ -12,6 +12,17 @@ alsa-firmware
 pipewire-pulse
 pipewire-jack
 pipewire-alsa
+sddm
+budgie-desktop
+budgie-screensaver
+budgie-control-center
+budgie-desktop-view
+budgie-backgrounds
+network-manager-applet
+materia-gtk-theme
+papirus-icon-theme
+gnome-keyring
+bluez
 firewalld
 iptables-nft
 base
