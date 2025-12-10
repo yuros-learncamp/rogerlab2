@@ -14,7 +14,6 @@ pipewire-jack
 pipewire-alsa
 sddm
 pantheon
-pantheon-polkit-agent 
 firefox
 nautilus
 gnome-keyring
