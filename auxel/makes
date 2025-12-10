@@ -266,6 +266,11 @@ function raptor_audio_prep() {
     echo "Audio module installation"
 }
 
+function raptor_deskt_prep() {
+    sleep 2 && clear
+    echo "Desktop module installation"
+}
+
 function raptor_mitig_prep() {
     sleep 2 && clear
     echo "Mitigation module installation"
@@ -410,6 +415,18 @@ function raptor_audio_post() {
 }
 
 
+
+function raptor_deskt_post_serve() {
+    arch-chroot /mnt systemctl enable sddm
+    arch-chroot /mnt systemctl enable bluetooth.service
+}
+
+function raptor_deskt_post() {
+    sleep 2 && clear
+    echo "Desktop module configuration"
+    raptor_deskt_post_serve
+    echo "Desktop module configured"
+}
 
 function raptor_mitig_post() {
     sleep 2 && clear

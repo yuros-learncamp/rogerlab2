@@ -1,0 +1,10 @@
+NAME="Tester 2"
+PRETTY_NAME="Tester 2"
+ID=tester2
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://tester2.yuros.org"
+DOCUMENTATION_URL="https://tester2.yuros.org/docs"
+SUPPORT_URL="https://tester2.yuros.org/forum"
+BUG_REPORT_URL="https://tester2.yuros.org/issues"
+PRIVACY_POLICY_URL="https://tester2.yuros.org/privacy"
+LOGO=falcone-linux
