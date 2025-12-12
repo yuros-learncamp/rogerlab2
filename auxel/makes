@@ -439,7 +439,7 @@ function raptor_deskt_post_srvc() {
 }
 
 function raptor_deskt_post_pure() {
-    arch-chroot /mnt pacman -R phanteon-files
+    arch-chroot /mnt pacman -R pantheon-files --noconfirm
 }
 
 function raptor_deskt_post() {
