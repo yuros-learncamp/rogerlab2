@@ -425,28 +425,17 @@ function raptor_audio_post() {
 
 
 
-
-function raptor_deskt_post_sess() {
-    rm -f /mnt/usr/share/wayland-sessions/gnome-wayland.desktop
-    rm -f /mnt/usr/share/wayland-sessions/gnome.desktop
-    rm -fr /mnt/usr/share/sounds/speech-dispatcher/*
-}
-
-function raptor_deskt_post_srvc() {
-    arch-chroot /mnt systemctl enable lightdm.service
+function raptor_deskt_post_serve() {
+    arch-chroot /mnt systemctl enable sddm
     arch-chroot /mnt systemctl enable bluetooth.service
 }
 
-function raptor_deskt_post_pure() {
-    arch-chroot /mnt pacman -R pantheon-files --noconfirm
-}
+
 
 function raptor_deskt_post() {
     sleep 2 && clear
     echo "Desktop module configuration"
-    raptor_deskt_post_pure
-    raptor_deskt_post_sess
-    raptor_deskt_post_srvc
+    raptor_deskt_post_serve
     echo "Desktop module configured"
 }
 
