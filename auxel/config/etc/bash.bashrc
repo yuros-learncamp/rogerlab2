@@ -75,4 +75,4 @@ fi
 
 
 ## BASH THEMES
-. /etc/xdg/bash/theme/default
+source /etc/xdg/bash/theme/default
